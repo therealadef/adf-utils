@@ -1,0 +1,12 @@
+C:\Users\oli\Documents\Projects\adf-utils\target\debug\deps\libico-dd940de42293c46c.rmeta: C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\lib.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\macros.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\bmpdepth.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\icondir.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\image.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\restype.rs
+
+C:\Users\oli\Documents\Projects\adf-utils\target\debug\deps\libico-dd940de42293c46c.rlib: C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\lib.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\macros.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\bmpdepth.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\icondir.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\image.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\restype.rs
+
+C:\Users\oli\Documents\Projects\adf-utils\target\debug\deps\ico-dd940de42293c46c.d: C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\lib.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\macros.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\bmpdepth.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\icondir.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\image.rs C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\restype.rs
+
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\lib.rs:
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\macros.rs:
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\bmpdepth.rs:
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\icondir.rs:
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\image.rs:
+C:\Users\oli\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ico-0.3.0\src\restype.rs:

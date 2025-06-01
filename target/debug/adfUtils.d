@@ -1,0 +1,1 @@
+C:\Users\oli\Documents\Projects\adf-utils\target\debug\adfUtils.exe: C:\Users\oli\Documents\Projects\adf-utils\src\hex_editor.rs C:\Users\oli\Documents\Projects\adf-utils\src\main.rs C:\Users\oli\Documents\Projects\adf-utils\src\media_converter.rs C:\Users\oli\Documents\Projects\adf-utils\src\settings.rs
