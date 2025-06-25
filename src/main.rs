@@ -1,6 +1,7 @@
 mod media_converter;
 mod hex_editor;
 mod settings;
+mod downloader;
 
 use eframe::egui::{self, CentralPanel, TopBottomPanel};
 use egui::style::{WidgetVisuals, Widgets};
@@ -10,11 +11,13 @@ use egui::viewport::ViewportBuilder; // ✅ From egui
 use media_converter::MediaConverterTab;
 use hex_editor::HexEditorTab;
 use settings::SettingsTab;
+use downloader::DownloaderTab;
 
 #[derive(PartialEq)]
 enum Tab {
     MediaConverter,
     HexEditor,
+    Downloader,
     Settings,
 }
 
@@ -23,6 +26,7 @@ struct AdfUtilsApp {
     media_converter: MediaConverterTab,
     hex_editor: HexEditorTab,
     settings: SettingsTab,
+    downloader: DownloaderTab,
     icon_set: bool,
 }
 
@@ -32,6 +36,7 @@ impl Default for AdfUtilsApp {
             selected_tab: Tab::MediaConverter,
             media_converter: MediaConverterTab::default(),
             hex_editor: HexEditorTab::default(),
+            downloader: DownloaderTab::default(),
             settings: SettingsTab::load(),
             icon_set: false,
         }
@@ -68,6 +73,7 @@ impl eframe::App for AdfUtilsApp {
             ui.horizontal(|ui| {
                 ui.selectable_value(&mut self.selected_tab, Tab::MediaConverter, "Media Converter");
                 ui.selectable_value(&mut self.selected_tab, Tab::HexEditor, "Hex Editor");
+                ui.selectable_value(&mut self.selected_tab, Tab::Downloader, "Downloader");
                 ui.selectable_value(&mut self.selected_tab, Tab::Settings, "Settings");
             });
         });
@@ -76,6 +82,7 @@ impl eframe::App for AdfUtilsApp {
             match self.selected_tab {
                 Tab::MediaConverter => self.media_converter.ui(ui, &self.settings.config),
                 Tab::HexEditor => self.hex_editor.ui(ui),
+                Tab::Downloader => self.downloader.ui(ui),
                 Tab::Settings => self.settings.ui(ui),
             }
         });
